@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet"  href="stylesheet.css">
+<script src="jstest.js"></script>
+<title>Test</title>
+</head>
+<body>
+<ul id="idBara">
+<nav>
+  <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+	  <div class="dropdown-content">
+		  <a href="MAINPAGE.HTML">Home</a>
+		  <a href="GALERIE.html">Galerie</a>
+		  <a href="DOCUMENTATIE.html">Documentatie</a>
+		</div>
+	</li>
+	
+  <li><a href="TestCunostinte.html">Test de cunostinta</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  <li><a href="About.html">About</a></li>
+  </nav>
+</ul>
+<img id="banner" src="imagini/banner.jpg"></img>
+
+<div class="div1" onclick="div1(event)">
+  <span onclick= "f(this)" class="closebtn">&times;</span>
+  <p style="text-align:center" id = "p1" >Nu uita, intotdeauna poti invata mai multe.</p>
+  <p style="text-align:center" id="p2" onclick = "p2(event)"></p>
+</div>
+
+
+
+<div  id="intrebari">
+<form onsubmit="punctaj()">
+  <h4>1. Sub ce imparat si-a atins Imperiul Bizantin apogeul?</h><br>
+  <input type="radio" name="1" value="Iustinian" id="1T">Iustinian<br>
+  <input type="radio" name="1" value="Teodosian">Teodosian<br>
+  <input type="radio" name="1" value="Leon">Leon<br>  
+  <h4>2. Ce imparat a cladit bazele Constantinopului?</h><br>  
+  <input type="radio" name="2" value="Valentian I">Valentian I<br>
+  <input type="radio" name="2" value="Constantin" id="2T">Constantin<br>
+  <input type="radio" name="2" value="Zenon">Zenon<br>  
+   <h4>3.Cine a fost imparatul care a recunoscut independenta statului bulgar pentru prima data?</h><br>  
+  <input type="radio" name="3" value="Constantin" id="3T">Constantin al IV-lea<br>
+  <input type="radio" name="3" value="Arcadius">Arcadius<br>
+  <input type="radio" name="3" value="Tiberiu">Tiberiu<br>  
+   <h4>4. In perioada declinului, ce teritoriu major a fost pierdut mai intai?</h><br>  
+  <input type="radio" name="4" value="Asia" id="4T">Asia Mica<br>
+  <input type="radio" name="4" value="Italia">Italia<br>
+  <input type="radio" name="4" value="Genoa">Genoa<br>  
+   <h4>5. In ce an a fost cucerit Constantinopolul?</h><br>  
+  <input type="radio" name="5" value="2018">2018<br>
+  <input type="radio" name="5" value="1453" id="5T">1453<br>
+  <input type="radio" name="5" value="Leon">2020<br>  
+  <input type="submit" value="Submit" id="s1">
+</form>
+
+<h3 style="color:red">Intrebare BONUS</h>
+
+<h4>Care dintre aceste state au avut granite vecine cu Imperiul Bizantin de-a lungul istoriei?</h><br>
+<form onsubmit="sol()">
+  <input type="checkbox" name="ans1" value="1" id= "F1">Anglia<br>
+  <input type="checkbox" name="ans2" value="Car" id="B1">Tara Romaneasca<br>
+  <input type="checkbox" name="ans3" value="Boat" id = "B2">Moldova<br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p id="ls"></p>
+<p>Cum ti s-a parut testul?</p>
+<form onsubmit = "ls()">
+  <input type="text" name="opinie" onkeydown="myFunction(event)" id="op1">
+  <br> <br>
+  <input type="submit" value="Submit">
+  <br><br>
+</form>
+
+
+</div>
+
+</body>
+</html>
