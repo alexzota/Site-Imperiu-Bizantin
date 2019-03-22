@@ -1,0 +1,33 @@
+HTML
+meta, base   -----------------------ok mainpage in head
+
+CSS
+position(relative, absolute),z-index-----------------------------
+transform, transition, animation--------------------------------- animatie folosita pt fundal rosu
+flexbox-model----------------------------------------------------
+------------span-------------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+JS 
+inputuri (buton,text,radio, checkbox)-------------------------------------- buton pt site, text pt coment la test, checkbox la test bonus
+this, let, navigare in arbore (children, parentElement, ..)---------------- this,parent la event pt close button(test banner), children-tabel about
+className, classList, getComputedStyle------------------------------------- className bara verde, test p2onclick p1 style, get computed style
+addEventListener cu param3=true--------------------------------------------addeventlistener ca sa nu mai mearga submitul
+event -proprietati(target, key, pageX)------------------------------------- target pt drag and drop, key pt last key, pageX pt culoare
+      -metode (stopPropagation, preventDefault)---------------------------- stoppropagation pt , prevent default pt drag and drop
+proprietate noua adaugata unui obiect?????????????????????????????????????? gen className?
+setInterval(cu 3 parametrii) , clearInterval------------------------------- 
+window- open, close-------------------------------------------------------- Math pt random,string lowercase pt opinie, date pt opinie, array?
+o metoda din clasele predefinite: Math, Array, String, Date	---------------   innerHTML pt p2, localStorage pt opinii
+innerHTML, localStorage,---------------------------------------------------
+Drag and Drop-------------------------------------------------------------- ye
+
+
+optional-cei care vor sa-si mareasca activitatea de laborator 
+-griduri
+-stilizare cu bootstrap
+-canvas 
+-SVG 
+-jquery
+-ajax
+
+
+
